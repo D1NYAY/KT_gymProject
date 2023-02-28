@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KT_gymProject</string>
+    <string name="Aboniment">Абонименты</string>
+    <string name="frstmnth">1 месяц</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvPay">Оплата</string>
+    <string name="enterpaysystem">Укажите способ оплаты</string>
+</resources>

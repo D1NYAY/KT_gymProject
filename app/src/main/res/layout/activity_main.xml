@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="100dp"
+        android:id="@+id/ry_pay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+        />
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Aboniment"
+        android:id="@+id/tv_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+
+        />
+
+
+
+
+
+</FrameLayout>

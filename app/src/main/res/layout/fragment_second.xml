@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".SecondFragment">
+
+    <TextView
+        android:id="@+id/tv_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:text="@string/tvPay"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/tv_paySystem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:text="@string/enterpaysystem"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <TextView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="246dp"
+        android:background="@drawable/tv_round"
+        android:backgroundTint="@color/green"
+        android:elevation="24sp"
+
+        />
+
+    <TextView
+
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/tv_round"
+        android:backgroundTint="@color/white"
+
+        />
+
+    <TextView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/tv_round"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/tv_round"
+        android:backgroundTint="@color/white"
+
+        />
+
+    <TextView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/tv_round"
+        android:backgroundTint="@color/white" />
+
+    <TextView
+
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="246dp"
+        android:background="@drawable/tv_round"
+        android:backgroundTint="@color/white"
+
+        />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="116dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="462dp"
+        android:background="@drawable/circle_round"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="Сумма"
+        android:paddingStart="16dp"
+        android:paddingTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="500 сом" />
+    <Button
+        android:layout_width="306dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="608dp"
+        android:backgroundTint="@color/green"
+        android:background="@drawable/button_round"
+        android:text="Оплатить"/>
+</FrameLayout>
